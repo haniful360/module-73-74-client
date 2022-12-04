@@ -1,0 +1,47 @@
+.bannerBackground{
+    background-image: url('../../assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.chair-img{
+    width:594px;
+    /* height:355px; */
+    
+}
+
+@media screen and (max-width:640px){
+    /* banner section */
+    .chair-img{
+        width:100%;
+       
+    }
+    .banner-title{
+        margin-top: 30px;
+        padding:0;
+        font-size: 40px;
+    }
+
+    /* //treatment */
+    
+    .padding-left-right{
+        padding: 20px 0 ;
+    }
+    .treatment-img{
+        width:355px;
+        height: 576px;
+    }
+    .padding{
+        padding: 0;
+    };
+
+    /* make appointment */
+    .others-padding{
+        padding: 30px;
+    }
+    /* appointment banner */
+    .margin-left{
+        margin-left: 0;
+    }
+    
+}
